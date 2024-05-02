@@ -1,3 +1,4 @@
+
 import random
 import time
 
@@ -7,16 +8,16 @@ def generar_arreglo_aleatorio (tamaño):
 def imprimir_arreglo (arreglo):
     print(" ".join(map(str,arreglo)))
 
-def busqueda_secuencial(arrreglo,elemento):
+def busqueda_secuencial(arreglo,elemento):
     for i in range(len(arreglo)):
-        if arrreglo[i]==elemento:
+        if arreglo[i]==elemento:
             return i
     return -1
 
 #generar un arreglo de numeros enteros aleatorios
 arreglo_aleatorio = generar_arreglo_aleatorio(1000)
 
-#imprimir el contenido del arreglo aleatorio
+#imprimir el contenido del arreglo aleatorio    
 print("arreglo aleatorio generado:")
 imprimir_arreglo(arreglo_aleatorio)
 
