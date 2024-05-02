@@ -5,6 +5,7 @@
 #include <ctime>
 #include <algorithm>
 #include <chrono>
+
 using namespace std;
 using namespace std::chrono;
 
@@ -78,7 +79,6 @@ cout << "Tiempo de generación: " << tiempoGeneracion << " nanosegundos" << endl
 cout << "Tiempo de búsqueda inicial: " << tiempoBusqueda << " nanosegundos" << endl;
 cout << "Tiempo de ordenamiento: " << tiempoOrdenamiento << " nanosegundos" <<
 endl;
-cout << "Tiempo de búsqueda en arreglo ordenado: " << tiempoBusquedaOrdenada << "
-nanosegundos" << endl;
+cout << "Tiempo de búsqueda en arreglo ordenado: " << tiempoBusquedaOrdenada << "nanosegundos" << endl;
 return 0;
 }
